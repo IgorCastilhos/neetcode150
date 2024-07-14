@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         seen = set()
@@ -8,4 +9,5 @@ class Solution:
                 return True
             seen.add(n)
         return False
+    # Space complexity: O(n)
     # Time complexity: O(n)
